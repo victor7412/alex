@@ -8,16 +8,25 @@
 
 body {
     background-color: #eeeeea;
+    text-align: center;
+    margin-top: 20px;
+    color: #9c333c;
 }
 .wrapper {
     width: 100%;
     height: 100vh;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.container {
+.container2 {
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+.container1 {
     height: 400px;
     display: flex;
     flex-wrap: nowrap;
@@ -25,7 +34,7 @@ body {
 }
 
 .card {
-    width: 80 px;
+    width: 800 px;
     border-radius: .75rem;
     background-size: cover;
     cursor: pointer;
@@ -39,7 +48,7 @@ body {
 }
 
 .card > .row {
-    color: white;
+    color: red;
     display: flex;
     flex-wrap: nowrap;
 }
@@ -53,7 +62,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: 15px;
-
 }
 
 .card > .row .description{
@@ -67,7 +75,6 @@ body {
     transform: translateY(30px);
     transition-delay: .3s;
     transition: all .3s ease;
-
 }
 
 .description p {
@@ -95,3 +102,56 @@ input{
 .card[for="c1"] {
     background-image: url("https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fG1vYmlsZXxlbnwwfHx8fDE2ODQ5NTY3MjA&ixlib=rb-4.0.3&q=80&w=400");
 }
+
+.card[for="c2"] { 
+        background-image: url("240_F_622238944_jS1mTNDAxeTWXyvSPQSQgfb1oXBFL3LV.jpg");
+    };
+
+.card[for="c3"] {
+
+    background-image: url("240_F_622238963_dPQAaViKi5NMz6OwG5afWkydhUF341Xu.jpg");
+};
+
+.card[for="c4"] {
+
+    background-image: url("240_F_622238895_6ZZzvjbHjCgc5OBQZHINkj1UR6l5BPoS.jpg");
+};
+.card[for="c5"] {
+
+    background-image: url("https://vimeo.com/30658997");
+};
+
+.card[for="c6"] {
+
+    background-image: url("https://vimeo.com/30658997");
+};
+
+.card[for="c7"] {
+
+    background-image: url("https://vimeo.com/30658997");
+};
+
+.card[for="c8"] {
+
+    background-image: url("https://vimeo.com/30658997");
+};
+
+.card[for="c9"] {
+
+    background-image: url("https://vimeo.com/30658997");
+};
+
+.card[for="c10"] {
+
+    background-image: url("https://vimeo.com/30658997");
+};
+
+.card[for="c11"] {
+
+    background-image: url("https://vimeo.com/30658997");
+};
+
+.card[for="c12"] {
+
+    background-image: url("https://vimeo.com/30658997");
+};
