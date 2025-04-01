@@ -6,12 +6,116 @@
 
 }
 
+.navbar{
+    display: flex;
+    justify-content: right;
+    display: inline-block;
+}
+
+.logo{
+    display: flex;
+    justify-content: right;
+    display: inline-block;
+}
+
+.nav-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li{
+    margin: 0 20px;
+    padding: 0;
+    display: inline-block;
+}
+
 body {
-    background-color: #eeeeea;
+    /*background-color: #eeeeea;*/
     text-align: center;
     margin-top: 20px;
     color: #9c333c;
 }
+
+.sub-title-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+
+.description-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.text-oficio{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1a1617;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+body {
+    background-image: url(fondo\ de\ maera\ blanco.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    color: black;
+}
+
+.mensaje{
+   display: block;
+   justify-items: left;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.mb-3{
+    display: block;
+    justify-items: left;
+}
+
+.forn-label{
+
+}
+
+.boton-mensaje{
+    justify-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 120px;
+    height: 60px;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: orange;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
 .wrapper {
     width: 100%;
     height: 100vh;
@@ -105,53 +209,53 @@ input{
 
 .card[for="c2"] { 
         background-image: url("240_F_622238944_jS1mTNDAxeTWXyvSPQSQgfb1oXBFL3LV.jpg");
-    };
+    }
 
 .card[for="c3"] {
 
-    background-image: url("240_F_622238963_dPQAaViKi5NMz6OwG5afWkydhUF341Xu.jpg");
-};
+    background-image: url("91c8fc_5371a5d5635e4dac9f029e5a156b45de~mv2.avif");
+}
 
 .card[for="c4"] {
 
-    background-image: url("240_F_622238895_6ZZzvjbHjCgc5OBQZHINkj1UR6l5BPoS.jpg");
-};
+    background-image: url("91c8fc_8022c7b607534b599721c8799e494e01~mv2.avif");
+}
 .card[for="c5"] {
 
-    background-image: url("https://vimeo.com/30658997");
-};
+    background-image: url("91c8fc_cfd16f2ff0f244f1a2d8e3b1c622e452~mv2.avif");
+}
 
 .card[for="c6"] {
 
-    background-image: url("https://vimeo.com/30658997");
-};
+    background-image: url("240_F_622238859_ki4SFYzlCuPkSuGLuQpUJMCRfLFzAjCN.jpg");
+}
 
 .card[for="c7"] {
 
-    background-image: url("https://vimeo.com/30658997");
-};
+    background-image: url("240_F_622238944_jS1mTNDAxeTWXyvSPQSQgfb1oXBFL3LV.jpg");
+}
 
 .card[for="c8"] {
 
-    background-image: url("https://vimeo.com/30658997");
-};
+    background-image: url("240_F_622238944_jS1mTNDAxeTWXyvSPQSQgfb1oXBFL3LV.jpg");
+}
 
 .card[for="c9"] {
 
-    background-image: url("https://vimeo.com/30658997");
-};
+    background-image: url("240_F_622238963_dPQAaViKi5NMz6OwG5afWkydhUF341Xu.jpg");
+}
 
 .card[for="c10"] {
 
-    background-image: url("https://vimeo.com/30658997");
-};
+    background-image: url("240_F_622238859_ki4SFYzlCuPkSuGLuQpUJMCRfLFzAjCN.jpg");
+}
 
 .card[for="c11"] {
 
-    background-image: url("https://vimeo.com/30658997");
-};
+    background-image: url("91c8fc_8022c7b607534b599721c8799e494e01~mv2.avif");
+}
 
 .card[for="c12"] {
 
-    background-image: url("https://vimeo.com/30658997");
-};
+    background-image: url("240_F_622238895_6ZZzvjbHjCgc5OBQZHINkj1UR6l5BPoS.jpg");
+}
